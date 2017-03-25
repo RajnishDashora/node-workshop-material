@@ -1,59 +1,98 @@
-SESSION PLAN: 
 
-Metadata
-1 cycle = 25mins
-1 short-break = 5mins
-1 long-break = 15mins
-1 lunch-break = 30mins 
+### Installation: Git, Node, VSCode
+ - git : `sudo apt-get install git`
+ - VS Code : https://code.visualstudio.com/docs/setup/linux
+ - node : https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions
 
-Total Cycle < 13
-
-Within Breaks:
-(Postman, Linux - short-breaks)
-
-TODO:
-Create Starting_Points repo
-Google (Advance n/w concepts, Data Serializations)
-
-Session Plan
-1. Git, Node, VSCode, OSS - 2 cycles
-2. Basic JS Intro + Test (Java != JS)  2 ---> Can be manovered
-	
-	2.1 What is JS. (History)
-	2.2 5 questions
-	<< Short Break >>
-	2.3 JS Ramp up (Content to be found out)
-
-3. Welcome to NOde        1 + 2
-	31: Node History + INTRO <What the hell is async>
-	32: NPM
-	33: Node Repl
-		331: Bring in Command Pattern
-		332: Make Calculator Logic
-		333: Introduce TDD
-
-4. Hands on Node 1   <Get postman before this>    --can-be-skipped
-	40: Web Server / Application server
-	41: Creating a web server	
-	43: Use the calculator here..
-
-5. REST: 1
-	51: what is GET POST PUT PATCH
-	52: Conventions with REST
-
-<NPM should come before this..>
-5. Get on with Express 4
-	51. Basic Intro 
-	52: Make a Calculator API
-	53: TDD
+### Git in practice
+ - Version Control Systems
+ -  Basic Commands
+	 - `git init`
+	 - `git status`
+	 - `git add`
+	 - `git commit`
+	 - `git log`
+	 - `git clone`
+	 - `git checkout`
 
 
-6. Node Ecosystem 2
-	61: Task Runners ==  Gulp, Grunt
-	62: Test Runners
-	63: Assertion Library
-	64: Interesting One's
-	65: Nvm
-	66: DataBases
-	67: Other frameworks available 1
-	68: Links to read more (Awesome stuffs) 1
+### Javascript
+
+ - JS introduction
+ -  Lets guess,
+	 -  java != javascript
+	 - element = document.getElementById(id);
+	 -  3 && 5, 3 || 5   
+	 - p =  () => { return "Hello World";}
+	 - q = (() =>{ return "Hello World";})();
+
+
+### Node
+
+ - Node History
+ - Node Repl
+ - npm
+ - Lets findout your mac address: https://www.npmjs.com/package/get-mac-address
+
+
+### Test Driven Development - TDD
+
+ - TDD in practice
+ - Clone:  https://github.com/shivambarsaley/node-starting-point.git and switch to **master**.
+
+
+### Lets Code  
+
+ - Try writing subtract operation with TDD
+ - Got it right ? Carry on with multiplication and division
+ - Switch to **calculator-model** branch.
+
+### Web Frameworks
+
+ - web servers
+ - Hello Express!
+ - REST
+ - Switch to **Calculator_Express_Setup** branch
+
+### Lets Code Again?
+
+ - Try writing subtract operation API with Express
+ - Got it right ? Can you try making a POST request for multiplication and division
+ - Switch to **Solution_With_Express** branch
+
+### And We Have An Express Based Calculator App !
+
+ - Discuss solution
+ - REST verbs?
+
+
+### Know More
+ - Node Ecosystem
+   -  Task Runners
+	  - Gulp
+	  - Grunt
+  - Test Runners
+	  - Karma
+	  - Mocha
+  - Assertion Library
+	  - chai
+  - Node Version Manager
+      - nvm  
+  - Database
+      - mongoose - mongo
+      - mysql - mysql
+  - Other Popular Web Frameworks
+     - HAPI
+     - Sails
+     - Koa
+     - Meteor
+ -  Interesting One's
+	  - https://github.com/sindresorhus/awesome
+	  - http://www.restapitutorial.com/
+	  - https://ponyfoo.com/
+	  - http://2ality.com/
+	  - https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q
+	  - https://try.github.io/levels/1/challenges/1
+	  - http://superherojs.com/
+	  - https://developer.mozilla.org/en-US/
+	  - https://egghead.io/  
