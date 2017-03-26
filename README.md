@@ -96,3 +96,6 @@
 	  - http://superherojs.com/
 	  - https://developer.mozilla.org/en-US/
 	  - https://egghead.io/  
+
+### Fixes:
+	- http://askubuntu.com/questions/743814/unable-to-find-expected-entry-main-binary-i386-packages-chrome
